@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	$basetexture "models/the_lab/aperture/door_robot/door_robot_entrance_panels_color"
+	$bumpmap "models/the_lab/aperture/door_robot/door_robot_entrance_panels_normal"
+	$model 1
+	
+}
