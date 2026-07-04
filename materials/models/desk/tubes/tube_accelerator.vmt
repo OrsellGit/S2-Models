@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/desk/tubes/tube_accelerator_color"
+	$bumpmap "models/desk/tubes/tube_accelerator_normal"
+
+	$mraotexture "models/desk/tubes/tube_accelerator_mrao"
+	$model 1
+}
