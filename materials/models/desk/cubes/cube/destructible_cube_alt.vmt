@@ -1,0 +1,9 @@
+PBR
+{
+	$basetexture "models/desk/cubes/cube/destructible_cube_alt_color"
+	$bumpmap "models/desk/cubes/cube/destructible_cube_normal"
+	
+	$mraotexture "models/desk/cubes/cube/destructible_cube_mrao"
+	$emissiontexture "models/desk/cubes/cube/destructible_cube_alt_selfillum"
+	$model 1
+}

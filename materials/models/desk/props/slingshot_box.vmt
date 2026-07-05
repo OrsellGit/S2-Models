@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/desk/props/slingshot_box_color"
+	$bumpmap "models/desk/props/slingshot_box_normal"
+
+	$mraotexture "models/desk/props/slingshot_box_mrao"
+	$model 1
+}

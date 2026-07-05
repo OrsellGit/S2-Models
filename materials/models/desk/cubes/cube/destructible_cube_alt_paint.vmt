@@ -1,0 +1,21 @@
+PBR
+{
+	$basetexture "models/desk/cubes/cube/destructible_cube_alt_color"
+	$bumpmap "models/desk/cubes/cube/destructible_cube_normal"
+	
+	$mraotexture "models/desk/cubes/cube/destructible_cube_mrao"
+	$emissiontexture "models/desk/cubes/cube/destructible_cube_alt_selfillum"
+	$model 1
+	
+	$detail "paint/prop_paint_white"
+	$detailblendmode 2
+	$detailscale 1
+	
+	Proxies
+	{
+		PaintOverlayColor
+		{
+			resultVar "$detailtint"
+		}
+	}	
+}
