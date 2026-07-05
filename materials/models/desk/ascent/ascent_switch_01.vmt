@@ -6,7 +6,6 @@ PBR
 	$mraotexture "models/desk/cave_office/acoustic_ceiling_wavy_mrao"
 	$model 1
 
-	$selfillum 1
-	$selfillummask "models/desk/ascent/ascent_switch_01_mask"
+	$emissiontexture "models/desk/ascent/ascent_switch_01_mask"
 	
 }

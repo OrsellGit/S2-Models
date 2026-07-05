@@ -1,0 +1,10 @@
+PBR
+{
+	$basetexture "models/desk/cave_office/hanging_light_color"
+	$bumpmap "models/desk/cave_office/hanging_light_normal"
+	
+	$mraotexture "models/desk/cave_office/hanging_light_mrao"
+	
+	$emissiontexture "models/desk/cave_office/hanging_light_selfillum"
+	$model 1
+}

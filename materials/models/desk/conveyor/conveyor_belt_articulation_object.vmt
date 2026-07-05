@@ -4,5 +4,15 @@ PBR
 	$bumpmap "deafult/deafult_normal"
 	
 	$mraotexture "models/desk/conveyor/conveyor_belt_articulation_object_mrao"
+	Proxies
+	{
+		TextureScroll
+		{
+			texturescrollvar "$basetexturetransform"
+			texturescrollrate 0.1
+			texturescrollangle 0
+		}
+	}
+	
 	$model 1	
 }

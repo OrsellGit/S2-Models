@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10773"
-	"mapversion" "221"
+	"mapversion" "294"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,25 +23,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(255.783 2483.89 99.3202)"
-			"angle" "[-2.40014 172.798 0]"
+			"position" "(421.721 -277.055 212.62)"
+			"angle" "[19.9998 131.588 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(459.588 3238.55 65536)"
-			"zoom" "1.28994"
+			"position" "(1715.74 -389.889 65536)"
+			"zoom" "0.173611"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 2372.08 161.913)"
+			"position" "(0 2372.08 161.913)"
 			"zoom" "1.85751"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(68.2517 -65536 85.1394)"
+			"position" "(67.9901 0 5.81288)"
 			"zoom" "1.28995"
 		}
 	}
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "221"
+	"mapversion" "294"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1046,378 +1046,6 @@ world
 		editor
 		{
 			"color" "0 172 121"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "10114"
-		side
-		{
-			"id" "414"
-			"plane" "(480 256 256) (480 256 0) (512 256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 480 256 256"
-				"point" "1 480 256 0"
-				"point" "2 512 256 0"
-				"point" "3 512 256 256"
-			}
-			"material" "PBR/DEV/DEV_PBR_FLOOR"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "413"
-			"plane" "(512 1.39877e-06 0) (480 -1.39876e-06 0) (480 -1.39876e-06 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 1.39877e-06 0"
-				"point" "1 480 -1.39876e-06 0"
-				"point" "2 480 -1.39876e-06 256"
-				"point" "3 512 1.39877e-06 256"
-			}
-			"material" "PBR/DEV/DEV_PBR_FLOOR"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "412"
-			"plane" "(480 -1.39876e-06 256) (480 -1.39876e-06 0) (480 256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 480 -1.39876e-06 256"
-				"point" "1 480 -1.39876e-06 0"
-				"point" "2 480 256 0"
-				"point" "3 480 256 256"
-			}
-			"material" "DESK/PRISON/PRISON_WALL_01"
-			"uaxis" "[0 -1 0 -1024] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "411"
-			"plane" "(480 256 256) (512 256 256) (512 1.39877e-06 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 480 256 256"
-				"point" "1 512 256 256"
-				"point" "2 512 1.39877e-06 256"
-				"point" "3 480 -1.39876e-06 256"
-			}
-			"material" "PBR/DEV/DEV_PBR_FLOOR"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "410"
-			"plane" "(480 -1.39876e-06 0) (512 1.39877e-06 0) (512 256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 480 -1.39876e-06 0"
-				"point" "1 512 1.39877e-06 0"
-				"point" "2 512 256 0"
-				"point" "3 480 256 0"
-			}
-			"material" "PBR/DEV/DEV_PBR_FLOOR"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "409"
-			"plane" "(512 256 256) (512 256 0) (512 1.39877e-06 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 256 256"
-				"point" "1 512 256 0"
-				"point" "2 512 1.39877e-06 0"
-				"point" "3 512 1.39877e-06 256"
-			}
-			"material" "DESK/PRISON/PRISON_WALL_01"
-			"uaxis" "[0 -1 0 -1024] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 128 113"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "10116"
-		side
-		{
-			"id" "426"
-			"plane" "(512 -5.96364e-05 256) (512 -5.96364e-05 0) (512 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -5.96364e-05 256"
-				"point" "1 512 -5.96364e-05 0"
-				"point" "2 512 -256 0"
-				"point" "3 512 -256 256"
-			}
-			"material" "DESK/BILLBOARDS/APERTURE_FIREPROOF_PLAYGROUND_MURAL"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "425"
-			"plane" "(480 -256 0) (512 -256 0) (512 -5.96364e-05 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 480 -256 0"
-				"point" "1 512 -256 0"
-				"point" "2 512 -5.96364e-05 0"
-				"point" "3 480 -6.24339e-05 0"
-			}
-			"material" "PBR/DEV/DEV_PBR_FLOOR"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "424"
-			"plane" "(480 -6.24339e-05 256) (512 -5.96364e-05 256) (512 -256 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 480 -6.24339e-05 256"
-				"point" "1 512 -5.96364e-05 256"
-				"point" "2 512 -256 256"
-				"point" "3 480 -256 256"
-			}
-			"material" "PBR/DEV/DEV_PBR_FLOOR"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "423"
-			"plane" "(480 -256 256) (480 -256 0) (480 -6.24339e-05 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 480 -256 256"
-				"point" "1 480 -256 0"
-				"point" "2 480 -6.24339e-05 0"
-				"point" "3 480 -6.24339e-05 256"
-			}
-			"material" "DESK/BILLBOARDS/APERTURE_FIREPROOF_PLAYGROUND_MURAL"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "422"
-			"plane" "(512 -256 0) (480 -256 0) (480 -256 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -256 0"
-				"point" "1 480 -256 0"
-				"point" "2 480 -256 256"
-				"point" "3 512 -256 256"
-			}
-			"material" "PBR/DEV/DEV_PBR_FLOOR"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "421"
-			"plane" "(480 -6.24339e-05 256) (480 -6.24339e-05 0) (512 -5.96364e-05 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 480 -6.24339e-05 256"
-				"point" "1 480 -6.24339e-05 0"
-				"point" "2 512 -5.96364e-05 0"
-				"point" "3 512 -5.96364e-05 256"
-			}
-			"material" "PBR/DEV/DEV_PBR_FLOOR"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 128 113"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "9822"
-		side
-		{
-			"id" "402"
-			"plane" "(480 -512 256) (480 -512 0) (480 -256 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 480 -512 256"
-				"point" "1 480 -512 0"
-				"point" "2 480 -256 0"
-				"point" "3 480 -256 256"
-			}
-			"material" "DESK/WOOD/APERTURE_PARQUET"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "401"
-			"plane" "(512 -256 0) (480 -256 0) (480 -512 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -256 0"
-				"point" "1 480 -256 0"
-				"point" "2 480 -512 0"
-				"point" "3 512 -512 0"
-			}
-			"material" "PBR/DEV/DEV_PBR_FLOOR"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "400"
-			"plane" "(512 -512 256) (480 -512 256) (480 -256 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -512 256"
-				"point" "1 480 -512 256"
-				"point" "2 480 -256 256"
-				"point" "3 512 -256 256"
-			}
-			"material" "PBR/DEV/DEV_PBR_FLOOR"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "399"
-			"plane" "(512 -256 256) (512 -256 0) (512 -512 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -256 256"
-				"point" "1 512 -256 0"
-				"point" "2 512 -512 0"
-				"point" "3 512 -512 256"
-			}
-			"material" "PBR/DEV/DEV_PBR_FLOOR"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "398"
-			"plane" "(480 -256 0) (512 -256 0) (512 -256 256)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 480 -256 0"
-				"point" "1 512 -256 0"
-				"point" "2 512 -256 256"
-				"point" "3 480 -256 256"
-			}
-			"material" "PBR/DEV/DEV_PBR_FLOOR"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "397"
-			"plane" "(512 -512 256) (512 -512 0) (480 -512 0)"
-			point_data
-			{
-				"numpts" "4"
-				"point" "0 512 -512 256"
-				"point" "1 512 -512 0"
-				"point" "2 480 -512 0"
-				"point" "3 480 -512 256"
-			}
-			"material" "PBR/DEV/DEV_PBR_FLOOR"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 128 113"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -4773,6 +4401,1116 @@ world
 }
 entity
 {
+	"id" "15430"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disablevertexlighting" "0"
+	"enablelightbounce" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"model" "models/desk/cubes/cube_prop.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "288 224 35.7892"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "15522"
+	"classname" "prop_floor_button"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"fadescale" "1"
+	"model" "models/props/portal_button.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"origin" "448.581 97.9659 7.35845"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "15553"
+	"classname" "prop_weighted_cube"
+	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"comp_custom_model_type" "0"
+	"CubeBehavior" "0"
+	"CubeShape" "0"
+	"cubetype" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"minhealthdmg" "0"
+	"model" "models/desk/cubes/cube_companion.mdl"
+	"newskins" "2"
+	"nodamageforces" "0"
+	"paintpower" "4"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"reflectfiltercolor" "255 0 0 255"
+	"reflectmodifycolor" "255 0 0 255"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"skintype" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"uselaserfilter" "0"
+	"uselasermodifier" "0"
+	"viewhideflags" "0"
+	"origin" "288 -144 18.35"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "15557"
+	"classname" "prop_weighted_cube"
+	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"comp_custom_model_type" "0"
+	"CubeBehavior" "0"
+	"CubeShape" "0"
+	"cubetype" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"minhealthdmg" "0"
+	"model" "models/desk/cubes/cube_companion_off.mdl"
+	"newskins" "2"
+	"nodamageforces" "0"
+	"paintpower" "4"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"reflectfiltercolor" "255 0 0 255"
+	"reflectmodifycolor" "255 0 0 255"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"skintype" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"uselaserfilter" "0"
+	"uselasermodifier" "0"
+	"viewhideflags" "0"
+	"origin" "288 -144 66.35"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "15561"
+	"classname" "prop_weighted_cube"
+	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"comp_custom_model_type" "0"
+	"CubeBehavior" "0"
+	"CubeShape" "0"
+	"cubetype" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"minhealthdmg" "0"
+	"model" "models/desk/cubes/cube_off.mdl"
+	"newskins" "2"
+	"nodamageforces" "0"
+	"paintpower" "4"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"reflectfiltercolor" "255 0 0 255"
+	"reflectmodifycolor" "255 0 0 255"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"skintype" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"uselaserfilter" "0"
+	"uselasermodifier" "0"
+	"viewhideflags" "0"
+	"origin" "288 -96 66.35"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "15565"
+	"classname" "prop_weighted_cube"
+	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"comp_custom_model_type" "0"
+	"CubeBehavior" "0"
+	"CubeShape" "0"
+	"cubetype" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"minhealthdmg" "0"
+	"model" "models/desk/cubes/cube.mdl"
+	"newskins" "2"
+	"nodamageforces" "0"
+	"paintpower" "4"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"reflectfiltercolor" "255 0 0 255"
+	"reflectmodifycolor" "255 0 0 255"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"skintype" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"uselaserfilter" "0"
+	"uselasermodifier" "0"
+	"viewhideflags" "0"
+	"origin" "288 -96 18.35"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "15605"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/desk/cave_office/christmas_card.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "370.64 -215.275 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "15614"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 270 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"defaultanim" "full_anim_preview"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "0"
+	"holdanimation" "0"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/desk/ascent/ascent_switch_01.mdl"
+	"modelscale" "1"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowcastdist" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "128 336 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "15643"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disablevertexlighting" "0"
+	"enablelightbounce" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"model" "models/desk/cubes/cube_prop.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "1"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "336 224 35.7892"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "15647"
+	"classname" "prop_static"
+	"angles" "0 30 0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disablevertexlighting" "0"
+	"enablelightbounce" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"model" "models/desk/cubes/cube_prop.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "2"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "384 232 35.7892"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "15679"
+	"classname" "prop_static"
+	"angles" "0 45 0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disablevertexlighting" "0"
+	"enablelightbounce" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"model" "models/desk/cubes/cube_prop.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "3"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "424 256 35.7892"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "15687"
+	"classname" "prop_static"
+	"angles" "0 45 0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disablevertexlighting" "0"
+	"enablelightbounce" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"model" "models/desk/cubes/cube_prop.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "4"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "440 304 35.7892"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "15707"
+	"classname" "prop_static"
+	"angles" "-10.5453 44.007 10.7286"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disablevertexlighting" "0"
+	"enablelightbounce" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"model" "models/desk/cubes/cube_prop.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "5"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "448 368 48"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "16026"
+	"classname" "prop_static"
+	"angles" "89.9999 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/desk/cave_office/aperture_logo_70s.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "512 -256 96"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "16071"
+	"classname" "prop_static"
+	"angles" "89.9999 0 0"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"enablelightbounce" "0"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/desk/props/sign_machine_learning.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"fademindist" "-1"
+	"origin" "0 0 224"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "16155"
+	"classname" "light_rt_spot"
+	"_castentityshadow" "1"
+	"_cone" "45"
+	"_constant_attn" "0"
+	"_directmode" "2"
+	"_distance" "0"
+	"_dynamicshadowallocation" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "512"
+	"_hard_radius_override" "0"
+	"_hard_radius_threshold" "32"
+	"_hardfalloff" "0"
+	"_indirectmode" "1"
+	"_initialshadowsize" "6"
+	"_inner_cone" "30"
+	"_light" "202 223 255 500"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightmode" "2"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_removeaftercompile" "0"
+	"_shadoworiginoffset" "0 0 0"
+	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
+	"_zero_percent_distance" "2048"
+	"angles" "-41 315 0"
+	"fadetickinterval" "0.1"
+	"nearz" "4.0"
+	"pitch" "-41"
+	"slopescale" "1.0"
+	"spawnflags" "2"
+	"style" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
+	"origin" "-480 480 494.527"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "16164"
+	"classname" "light_rt_spot"
+	"_castentityshadow" "1"
+	"_cone" "45"
+	"_constant_attn" "0"
+	"_directmode" "2"
+	"_distance" "0"
+	"_dynamicshadowallocation" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "512"
+	"_hard_radius_override" "0"
+	"_hard_radius_threshold" "32"
+	"_hardfalloff" "0"
+	"_indirectmode" "1"
+	"_initialshadowsize" "6"
+	"_inner_cone" "30"
+	"_light" "255 234 202 500"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightmode" "2"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_removeaftercompile" "0"
+	"_shadoworiginoffset" "0 0 0"
+	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
+	"_zero_percent_distance" "2048"
+	"angles" "-41 135 0"
+	"fadetickinterval" "0.1"
+	"nearz" "4.0"
+	"pitch" "-41"
+	"slopescale" "1.0"
+	"spawnflags" "2"
+	"style" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
+	"origin" "480 -480 494.527"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "12394"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/desk/cubes/cube_generic_prop.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "1"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "193.284 -49.1479 76.4131"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "12398"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/desk/cubes/cube_turntable_prop.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "1"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "193.284 -1.14789 76.4131"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "12402"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/desk/cubes/cube_tv_prop.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "1"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "193.284 46.8521 76.4131"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "12571"
+	"classname" "info_player_start"
+	"angles" "0 180 0"
+	"origin" "480 0 0"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "12677"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"minhealthdmg" "0"
+	"model" "models/desk/destructible_cubes/destructible_cube_tv.mdl"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"targetname" "destructible_cube_tv"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "176 -192 96"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "12681"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"minhealthdmg" "0"
+	"model" "models/desk/destructible_cubes/destructible_cube_generic.mdl"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"targetname" "destructible_cube_generic"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "176 -192 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "12685"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"minhealthdmg" "0"
+	"model" "models/desk/destructible_cubes/destructible_cube_turntable.mdl"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"targetname" "destructible_cube_turntable"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "176 -192 144"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "12703"
+	"classname" "prop_button"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"delay" "1"
+	"fadescale" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "1"
+	connections
+	{
+		"OnPressed" "destructible_cube_genericBreak0-1"
+		"OnPressed" "destructible_cube_turntableBreak1-1"
+		"OnPressed" "destructible_cube_tvBreak2-1"
+	}
+	"origin" "304 -288 0.25512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "14333"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/desk/conveyor/conveyor_str_128_a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "192 -128 17"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "14337"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/desk/conveyor/conveyor_str_128_a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "192 -256 17"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "14377"
+	"classname" "prop_static"
+	"angles" "0 0 15"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/desk/conveyor/conveyor_str_64_a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "1"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "448 320.072 15.2896"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "14412"
+	"classname" "prop_static"
+	"angles" "0 0 15"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/desk/conveyor/conveyor_str_64_a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "1"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "448 381.891 31.854"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "14719"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
+	"angles" "0 240 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"minhealthdmg" "0"
+	"model" "models/desk/destructible_cubes/shared/gibs/piece_tv.mdl"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "192 144 33.2686"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "14747"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
+	"angles" "0 225 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"minhealthdmg" "0"
+	"model" "models/desk/destructible_cubes/shared/gibs/piece_turntable.mdl"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "224 208 33.2686"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "14778"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/desk/cave_office/hanging_light.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "384 0 416"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "10452"
 	"classname" "prop_dynamic"
 	"AllowSilentDissolve" "1"
@@ -4832,6 +5570,7 @@ entity
 	"disableselfshadowing" "0"
 	"disablevertexlighting" "0"
 	"enablelightbounce" "0"
+	"fademindist" "-1"
 	"fadescale" "1"
 	"ignorenormals" "0"
 	"maxcpulevel" "0"
@@ -4847,8 +5586,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"fademindist" "-1"
-	"origin" "-256 2976 128"
+	"origin" "-256 288 128"
 	editor
 	{
 		"color" "255 255 0"
@@ -4875,7 +5613,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-256 2976 128"
+	"origin" "-256 288 128"
 	editor
 	{
 		"color" "220 30 220"
@@ -4898,7 +5636,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-256 2720 128"
+	"origin" "-256 32 128"
 	editor
 	{
 		"color" "255 255 0"
@@ -5007,127 +5745,6 @@ entity
 }
 entity
 {
-	"id" "11025"
-	"classname" "prop_static"
-	"angles" "90 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/desk/cave_office/aperture_logo_70s.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"scale" "1 1 1"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "-176 2496 128"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
-	}
-}
-entity
-{
-	"id" "10158"
-	"classname" "light_rt_spot"
-	"_castentityshadow" "1"
-	"_cone" "45"
-	"_constant_attn" "0"
-	"_directmode" "2"
-	"_distance" "0"
-	"_dynamicshadowallocation" "0"
-	"_exponent" "1"
-	"_fifty_percent_distance" "512"
-	"_hard_radius_override" "0"
-	"_hard_radius_threshold" "32"
-	"_hardfalloff" "0"
-	"_indirectmode" "1"
-	"_initialshadowsize" "6"
-	"_inner_cone" "30"
-	"_light" "255 234 202 500"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightmode" "2"
-	"_lightscaleHDR" "1"
-	"_linear_attn" "0"
-	"_nocubemapsprite" "1"
-	"_quadratic_attn" "1"
-	"_removeaftercompile" "0"
-	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
-	"_specularmode" "2"
-	"_volumetricmode" "2"
-	"_zero_percent_distance" "2048"
-	"angles" "-2.0925 4.24164 -177.501"
-	"fadetickinterval" "0.1"
-	"nearz" "4.0"
-	"pitch" "-2.0925"
-	"slopescale" "1.0"
-	"spawnflags" "2"
-	"style" "0"
-	"volumetric_density" "0.0"
-	"volumetric_lightscale" "1.0"
-	"origin" "-72.085 -131.028 75.0403"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
-	"id" "9728"
-	"classname" "light_rt_spot"
-	"_castentityshadow" "1"
-	"_cone" "45"
-	"_constant_attn" "0"
-	"_directmode" "2"
-	"_distance" "0"
-	"_dynamicshadowallocation" "0"
-	"_exponent" "1"
-	"_fifty_percent_distance" "512"
-	"_hard_radius_override" "0"
-	"_hard_radius_threshold" "32"
-	"_hardfalloff" "0"
-	"_indirectmode" "1"
-	"_initialshadowsize" "6"
-	"_inner_cone" "30"
-	"_light" "255 234 202 500"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightmode" "2"
-	"_lightscaleHDR" "1"
-	"_linear_attn" "0"
-	"_nocubemapsprite" "1"
-	"_quadratic_attn" "1"
-	"_removeaftercompile" "0"
-	"_shadoworiginoffset" "0 0 0"
-	"_shadowscale" "1.0"
-	"_specularmode" "2"
-	"_volumetricmode" "2"
-	"_zero_percent_distance" "2048"
-	"angles" "32 175 0"
-	"fadetickinterval" "0.1"
-	"nearz" "4.0"
-	"pitch" "32"
-	"slopescale" "1.0"
-	"spawnflags" "2"
-	"style" "0"
-	"volumetric_density" "0.0"
-	"volumetric_lightscale" "1.0"
-	"origin" "439.915 -35.0278 75.0403"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
 	"id" "9802"
 	"classname" "prop_static"
 	"angles" "0 90 0"
@@ -5163,7 +5780,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-224 -512 128"
+	"origin" "352 -512 112"
 	editor
 	{
 		"color" "255 255 0"
@@ -6474,29 +7091,6 @@ entity
 }
 entity
 {
-	"id" "5850"
-	"classname" "prop_static"
-	"angles" "0 180 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/desk/cave_office/christmas_card.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"scale" "1 1 1"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "-95.0917 56.7863 40.9121"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "5908"
 	"classname" "prop_dynamic"
 	"AllowSilentDissolve" "1"
@@ -6661,7 +7255,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"inertiascale" "1.0"
-	"model" "models/desk/cubes/destructible_cube_generic.mdl"
+	"model" "models/desk/cubes/cube_generic.mdl"
 	"newskins" "2"
 	"paintpower" "4"
 	"physdamagescale" "0.1"
@@ -6671,7 +7265,7 @@ entity
 	"rendercolor" "255 255 255"
 	"solid" "6"
 	"spawnflags" "256"
-	"origin" "96 80 18.8155"
+	"origin" "288 48 18.8155"
 	editor
 	{
 		"color" "220 30 220"
@@ -6692,7 +7286,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"inertiascale" "1.0"
-	"model" "models/desk/cubes/destructible_cube_tv.mdl"
+	"model" "models/desk/cubes/cube_tv.mdl"
 	"newskins" "2"
 	"paintpower" "4"
 	"physdamagescale" "0.1"
@@ -6702,7 +7296,7 @@ entity
 	"rendercolor" "255 255 255"
 	"solid" "6"
 	"spawnflags" "256"
-	"origin" "96 -16 18.8155"
+	"origin" "288 -48 18.8155"
 	editor
 	{
 		"color" "220 30 220"
@@ -6721,7 +7315,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"inertiascale" "1.0"
-	"model" "models/desk/cubes/destructible_cube_turntable.mdl"
+	"model" "models/desk/cubes/cube_turntable.mdl"
 	"newskins" "2"
 	"paintpower" "4"
 	"physdamagescale" "0.1"
@@ -6731,36 +7325,13 @@ entity
 	"rendercolor" "255 255 255"
 	"solid" "6"
 	"spawnflags" "256"
-	"origin" "96 32 18.8155"
+	"origin" "288 0 18.8155"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "4728"
-	"classname" "prop_static"
-	"angles" "89.9999 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/desk/props/sign_machine_learning.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"scale" "1 1 1"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "-360 32 197.919"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -6915,7 +7486,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-243.117 331.57 112"
+	"origin" "176 304 112"
 	editor
 	{
 		"color" "255 255 0"
@@ -6938,7 +7509,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-243.117 363.57 112"
+	"origin" "176 336 112"
 	editor
 	{
 		"color" "255 255 0"
@@ -7118,213 +7689,6 @@ entity
 }
 entity
 {
-	"id" "1575"
-	"classname" "prop_dynamic"
-	"AllowSilentDissolve" "1"
-	"angles" "0 270 0"
-	"animateeveryframe" "1"
-	"body" "0"
-	"disablebonefollowers" "0"
-	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
-	"effects" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"health" "0"
-	"holdanimation" "0"
-	"maxanimtime" "10"
-	"minanimtime" "5"
-	"minhealthdmg" "0"
-	"model" "models/desk/ascent/ascent_switch_01.mdl"
-	"modelscale" "1"
-	"performancemode" "0"
-	"physdamagescale" "1.0"
-	"pressuredelay" "0"
-	"randomanimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"setbodygroup" "0"
-	"shadowcastdist" "0"
-	"shadowdepthnocache" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"startdisabled" "0"
-	"suppressanimsounds" "0"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "-128 80 51.3926"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1610"
-	"classname" "prop_dynamic"
-	"AllowSilentDissolve" "1"
-	"angles" "0 270 0"
-	"animateeveryframe" "1"
-	"body" "0"
-	"defaultanim" "button_press"
-	"disablebonefollowers" "0"
-	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
-	"effects" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"health" "0"
-	"holdanimation" "0"
-	"maxanimtime" "10"
-	"minanimtime" "5"
-	"minhealthdmg" "0"
-	"model" "models/desk/ascent/ascent_switch_01.mdl"
-	"modelscale" "1"
-	"performancemode" "0"
-	"physdamagescale" "1.0"
-	"pressuredelay" "0"
-	"randomanimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"setbodygroup" "0"
-	"shadowcastdist" "0"
-	"shadowdepthnocache" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"startdisabled" "0"
-	"suppressanimsounds" "0"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "-128 112 51.3926"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1615"
-	"classname" "prop_dynamic"
-	"AllowSilentDissolve" "1"
-	"angles" "0 270 0"
-	"animateeveryframe" "1"
-	"body" "0"
-	"defaultanim" "cover_open"
-	"disablebonefollowers" "0"
-	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
-	"effects" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"health" "0"
-	"holdanimation" "0"
-	"maxanimtime" "10"
-	"minanimtime" "5"
-	"minhealthdmg" "0"
-	"model" "models/desk/ascent/ascent_switch_01.mdl"
-	"modelscale" "1"
-	"performancemode" "0"
-	"physdamagescale" "1.0"
-	"pressuredelay" "0"
-	"randomanimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"setbodygroup" "0"
-	"shadowcastdist" "0"
-	"shadowdepthnocache" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"startdisabled" "0"
-	"suppressanimsounds" "0"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "-128 144 51.3926"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1652"
-	"classname" "prop_dynamic"
-	"AllowSilentDissolve" "1"
-	"angles" "0 270 0"
-	"animateeveryframe" "1"
-	"body" "0"
-	"defaultanim" "full_anim_preview"
-	"disablebonefollowers" "0"
-	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
-	"effects" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"health" "0"
-	"holdanimation" "0"
-	"maxanimtime" "10"
-	"minanimtime" "5"
-	"minhealthdmg" "0"
-	"model" "models/desk/ascent/ascent_switch_01.mdl"
-	"modelscale" "1"
-	"performancemode" "0"
-	"physdamagescale" "1.0"
-	"pressuredelay" "0"
-	"randomanimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"setbodygroup" "0"
-	"shadowcastdist" "0"
-	"shadowdepthnocache" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"startdisabled" "0"
-	"suppressanimsounds" "0"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "-128 176 51.3926"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "1016"
 	"classname" "prop_static"
 	"angles" "0 0 0"
@@ -7337,7 +7701,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-272 -240 80"
+	"origin" "0 -240 80"
 	editor
 	{
 		"color" "255 255 0"
@@ -7360,7 +7724,7 @@ entity
 	"skin" "1"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-272 -144 80"
+	"origin" "0 -144 80"
 	editor
 	{
 		"color" "255 255 0"
@@ -7383,7 +7747,7 @@ entity
 	"skin" "2"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-272 -48 80"
+	"origin" "0 -48 80"
 	editor
 	{
 		"color" "255 255 0"
@@ -7406,7 +7770,7 @@ entity
 	"skin" "3"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-272 48 80"
+	"origin" "0 48 80"
 	editor
 	{
 		"color" "255 255 0"
@@ -7429,7 +7793,7 @@ entity
 	"skin" "4"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-272 144 80"
+	"origin" "0 144 80"
 	editor
 	{
 		"color" "255 255 0"
@@ -7452,7 +7816,7 @@ entity
 	"skin" "5"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-272 240 80"
+	"origin" "0 240 80"
 	editor
 	{
 		"color" "255 255 0"
@@ -7468,14 +7832,14 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/desk/cubes/destructible_cube_generic_prop.mdl"
+	"model" "models/desk/cubes/cube_generic_prop.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-110.716 -49.1479 20.4131"
+	"origin" "193.284 -49.1479 36.4131"
 	editor
 	{
 		"color" "255 255 0"
@@ -7491,14 +7855,14 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/desk/cubes/destructible_cube_turntable_prop.mdl"
+	"model" "models/desk/cubes/cube_turntable_prop.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-110.716 -1.14789 20.4131"
+	"origin" "193.284 -1.14789 36.4131"
 	editor
 	{
 		"color" "255 255 0"
@@ -7514,14 +7878,14 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/desk/cubes/destructible_cube_tv_prop.mdl"
+	"model" "models/desk/cubes/cube_tv_prop.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-110.716 46.8521 20.4131"
+	"origin" "193.284 46.8521 36.4131"
 	editor
 	{
 		"color" "255 255 0"
@@ -7546,7 +7910,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "0 0 265"
+	"origin" "0 1536 265"
 	editor
 	{
 		"color" "255 255 0"
@@ -7559,7 +7923,7 @@ entity
 {
 	"id" "23"
 	"classname" "prop_static"
-	"angles" "0 0 0"
+	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/desk/conveyor/conveyor_str_64_a.mdl"
@@ -7569,7 +7933,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-128 192 17"
+	"origin" "288 224 17"
 	editor
 	{
 		"color" "255 255 0"
@@ -7592,7 +7956,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-64 192 17"
+	"origin" "192 0 17"
 	editor
 	{
 		"color" "255 255 0"
@@ -7605,7 +7969,7 @@ entity
 {
 	"id" "57"
 	"classname" "prop_static"
-	"angles" "0 0 0"
+	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/desk/conveyor/conveyor_crn_02_a.mdl"
@@ -7615,7 +7979,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "64 192 17"
+	"origin" "352 224 17"
 	editor
 	{
 		"color" "255 255 0"
@@ -7638,27 +8002,13 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "128 192 17"
+	"origin" "192 128 17"
 	editor
 	{
 		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "99"
-	"classname" "info_player_start"
-	"angles" "0 0 0"
-	"origin" "-68.7347 39.8836 1"
-	editor
-	{
-		"color" "0 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
 	}
 }
 cameras

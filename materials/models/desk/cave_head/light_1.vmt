@@ -1,6 +1,5 @@
 VertexLitGeneric
 {
 	$basetexture "models/desk/cave_head/light_1"
-
-	$selfillum 1
+	$emissiontexture "models/desk/cave_head/light_1"
 }
