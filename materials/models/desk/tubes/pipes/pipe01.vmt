@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/desk/tubes/pipes/pipe01_color"
+	$bumpmap "models/desk/tubes/pipes/pipe01_normal"
+
+	$mraotexture "models/desk/tubes/pipes/pipe01_mrao"
+	$model 1
+}

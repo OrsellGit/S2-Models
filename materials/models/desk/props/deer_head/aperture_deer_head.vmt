@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/desk/props/deer_head/aperture_deer_head_color"
+	$bumpmap "models/desk/props/deer_head/aperture_deer_head_normal"
+
+	$mraotexture "models/desk/props/deer_head/aperture_deer_head_mrao"
+	$model 1
+}

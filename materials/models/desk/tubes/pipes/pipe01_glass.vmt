@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+	$basetexture "glass/glasswindow_frosted_002"
+	$surfaceprop Glass
+
+	$translucent 1
+
+	$envmap "metal/black_wall_envmap_002a_hdr"
+	$envmapmask "glass/glasswindow_frosted_002b_mask"
+	$envmaptint "[0.10 0.20 0.30]"
+	$envmapsaturation 0.1
+	$envmapfresnel 0.5
+
+	%keywords "portal2"
+
+	$worldimposter 1
+	%noportal 1
+	srgb?$alpha 0.8
+	
+}

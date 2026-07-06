@@ -1,0 +1,18 @@
+VertexLitGeneric //PBR
+{
+	$basetexture "models/desk/conveyor/conveyor_belt_articulation_object"
+	$bumpmap "deafult/deafult_normal"
+	
+	//$mraotexture "models/desk/conveyor/conveyor_belt_articulation_object_mrao"
+	$model 1	
+	
+"Proxies"
+	{
+		"texturescroll" 
+		{ 
+			"textureScrollVar" "$basetexturetransform"
+			"textureScrollRate" "0.5" 
+			"textureScrollAngle" "180" 
+		}
+	}
+}

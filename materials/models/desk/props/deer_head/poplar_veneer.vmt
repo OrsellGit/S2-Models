@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/desk/props/deer_head/poplar_veneer_color"
+	$bumpmap "models/desk/props/deer_head/poplar_veneer_normal"
+
+	$mraotexture "models/desk/props/deer_head/poplar_veneer_mrao"
+	$model 1
+}
