@@ -1,0 +1,9 @@
+PBR
+{
+	$basetexture "models/desk/lobby/teak_veneer_color"
+	$bumpmap "models/desk/lobby/teak_veneer_normal"
+	
+	$mraotexture "models/desk/lobby/teak_veneer_mrao"
+	
+	$model 1
+}

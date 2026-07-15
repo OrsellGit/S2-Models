@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/desk/props/deer_head/poplar_veneer_color"
+	$basetexturetransform "center 0 0 scale 2 2 rotate 0 translate 0 0"
+	$bumpmap "models/desk/props/deer_head/poplar_veneer_normal"
+
+	$mraotexture "models/desk/props/deer_head/poplar_veneer_mrao"
+}

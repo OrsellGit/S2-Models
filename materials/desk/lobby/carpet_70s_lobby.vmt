@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	$basetexture		"desk/lobby/carpet_70s_lobby_color"
+	$bumpmap			"desk/lobby/carpet_70s_lobby_normal"
+
+	$basetexturetransform "center 0 0 scale 2 2 rotate 0 translate 0 0"
+}
