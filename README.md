@@ -7,6 +7,8 @@ I ask that these not be reuploaded anywhere without my permission, even though t
 > This is work in progress, and should not be used as of now. You never know when I'll decided to change something big! <br>
 > Feel free to contribute to this Repo.
 
+[EverythingPBR](https://github.com/lenship2/everythingpbr) is used for the floor and wall textures
+
 # Credits
 Please credit the following when using these assets in a map or mod:
 * Aperture Desk Job & The Lab (Robot Repair) – Original assets

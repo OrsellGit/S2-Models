@@ -1,0 +1,10 @@
+PBR
+{
+	$basetexture "models/desk/cores/training_core/clipboard_color"
+	$bumpmap "deafult/deafult_normal"
+	
+	$mraotexture "models/desk/cores/training_core/clipboard_mrao"
+	$model 1
+
+	
+}

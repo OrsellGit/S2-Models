@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "models/desk/cores/training_core/training_core_iris_color"
+	$selfillum 1
+    $selfillummask "models/desk/cores/training_core/training_core_iris_selfillum"
+}

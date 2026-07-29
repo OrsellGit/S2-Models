@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10773"
-	"mapversion" "439"
+	"mapversion" "452"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,20 +23,20 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(442.609 209.862 240.621)"
-			"angle" "[41.1999 142.382 0]"
+			"position" "(356.281 -246.542 50.249)"
+			"angle" "[36.7999 -127.218 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(87.548 465.31 65536)"
-			"zoom" "3.85173"
+			"position" "(220.152 444.178 65536)"
+			"zoom" "1.54792"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 -68.0647 100.491)"
-			"zoom" "0.359999"
+			"position" "(65536 -325.721 0.490822)"
+			"zoom" "123.056"
 		}
 		v3
 		{
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "439"
+	"mapversion" "452"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4411,9 +4411,82 @@ world
 }
 entity
 {
+	"id" "27019"
+	"classname" "prop_static"
+	"angles" "0 290.5 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/desk/cores/trolley.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "204 460 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "27083"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 30 0"
+	"animateeveryframe" "1"
+	"defaultanim" "animation_test"
+	"fadescale" "1"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"model" "models/desk/cores/training_core.mdl"
+	"modelscale" "1"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "128 428 68"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "27123"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/desk/lobby/lobby_desk_note.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "333.624 -316 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
 	"id" "26105"
 	"classname" "prop_static"
-	"angles" "0 270 0"
+	"angles" "0 254 0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/desk/lab/lab_equipment_01.mdl"
@@ -4423,7 +4496,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "368 492 0"
+	"origin" "380 480 0"
 	editor
 	{
 		"color" "255 255 0"
@@ -4436,7 +4509,7 @@ entity
 {
 	"id" "26156"
 	"classname" "prop_static"
-	"angles" "0 270 0"
+	"angles" "0 261 0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/desk/lab/lab_equipment_02.mdl"
@@ -4446,7 +4519,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "336 492 0"
+	"origin" "340 488 0"
 	editor
 	{
 		"color" "255 255 0"
@@ -4459,7 +4532,7 @@ entity
 {
 	"id" "26175"
 	"classname" "prop_static"
-	"angles" "0 270 0"
+	"angles" "0 273.5 0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/desk/lab/lab_equipment_03.mdl"
@@ -4469,7 +4542,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "284 484 0"
+	"origin" "276 484 0"
 	editor
 	{
 		"color" "255 255 0"

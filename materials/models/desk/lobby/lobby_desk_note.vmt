@@ -1,0 +1,9 @@
+PBR
+{
+	$basetexture "models/desk/lobby/lobby_desk_note_color"
+	$bumpmap "deafult/deafult_normal"
+	
+	$mraotexture "models/desk/lobby/lobby_desk_note_mrao"
+	
+	$model 1
+}

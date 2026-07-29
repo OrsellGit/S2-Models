@@ -3,7 +3,7 @@ PBR
 	$basetexture "models/desk/ascent/ascent_switch_01"
 	$bumpmap "deafult/deafult_normal"
 	
-	$mraotexture "models/desk/cave_office/acoustic_ceiling_wavy_mrao"
+	$mraotexture "models/desk/ascent/ascent_switch_01_mrao"
 	$model 1
 
 	$emissiontexture "models/desk/ascent/ascent_switch_01_mask"

@@ -1,0 +1,10 @@
+PBR
+{
+	$basetexture "models/desk/cores/training_core/training_core_blades_color"
+	$bumpmap "models/desk/cores/training_core/training_core_blades_normal"
+	
+	$mraotexture "models/desk/cores/training_core/training_core_blades_mrao"
+	$model 1
+
+	
+}
