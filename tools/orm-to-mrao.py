@@ -1,4 +1,4 @@
-## Source 2 uses ORM, While strata uses MRAO.
+## Source 2 uses ORM (or atleast Source 2 Viewer exports them as it), While strata uses MRAO.
 ## ImageMagick allows for images to be turned in the right format easily, and quickly.
 ## Just drag and drop image files onto this
 

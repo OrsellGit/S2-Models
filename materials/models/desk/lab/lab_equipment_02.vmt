@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/desk/lab/lab_equipment_02_color"
+	$bumpmap "deafult/deafult_normal"
+	
+	$mraotexture "models/desk/lab/lab_equipment_02_mrao"
+	$model 1
+}
